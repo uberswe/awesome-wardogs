@@ -1,0 +1,12 @@
+# One domain or full URL per line. Lines starting with # are comments.
+# A domain entry matches that host and any subdomain.
+# These sites block or rate-limit automated requests even when the page works
+# in a browser, so the daily link checker skips them.
+x.com
+twitter.com
+instagram.com
+facebook.com
+linkedin.com
+tiktok.com
+discord.gg
+play.google.com

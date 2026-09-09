@@ -1,0 +1,131 @@
+name: Link check
+
+on:
+  schedule:
+    # Every day at 06:17 UTC. The odd minute avoids the top-of-hour rush.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check links
+        run: python scripts/check_links.py README.md --ignore .linkcheck-ignore --output dead-links.json
+
+      - name: Summarize
+        run: |
+          {
+            echo "## Link check"
+            python - <<'PY'
+          import json
+          report = json.load(open("dead-links.json"))
+          print(f"Checked {report['checked']} links, skipped {len(report['skipped'])}.")
+          if report["dead"]:
+              print()
+              print("| Dead link | Reason |")
+              print("| --- | --- |")
+              for item in report["dead"]:
+                  print(f"| {item['url']} | {item['reason']} |")
+          else:
+              print()
+              print("No dead links.")
+          if report["blocked"]:
+              print()
+              print("Blocked by bot protection (not treated as dead):")
+              print()
+              for item in report["blocked"]:
+                  print(f"- {item['url']} ({item['reason']})")
+          PY
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open one pull request per dead link
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_BRANCH: ${{ github.event.repository.default_branch }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          base_sha="$(git rev-parse HEAD)"
+
+          python - <<'PY' > dead-urls.txt
+          import json
+          for item in json.load(open("dead-links.json"))["dead"]:
+              print(item["url"] + "\t" + item["reason"])
+          PY
+
+          if [ ! -s dead-urls.txt ]; then
+            echo "No dead links, nothing to do."
+            exit 0
+          fi
+
+          while IFS=$'\t' read -r url reason; do
+            [ -n "$url" ] || continue
+            slug="$(printf '%s' "$url" | sha1sum | cut -c1-10)"
+            branch="link-check/remove-$slug"
+
+            if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+              echo "Skipping $url: branch $branch already exists."
+              continue
+            fi
+            existing="$(gh pr list --head "$branch" --state all --json number --jq 'length')"
+            if [ "$existing" != "0" ]; then
+              echo "Skipping $url: a pull request for $branch already exists."
+              continue
+            fi
+
+            git checkout -q -B "$branch" "$base_sha"
+            if ! python scripts/remove_link.py README.md "$url"; then
+              echo "Skipping $url: no matching line found."
+              git checkout -q "$base_sha"
+              continue
+            fi
+
+            git add README.md
+            git commit -q -m "Remove dead link: $url" -m "The daily link check could not reach this URL ($reason)."
+            git push -q origin "$branch"
+
+            body="$(cat <<MSG
+          The daily link check could not reach this URL after several attempts.
+
+          - URL: $url
+          - Last response: $reason
+          - Workflow run: $RUN_URL
+
+          This pull request removes the line that contains the link. If that line held more than one link, the others were removed too, so please review the diff before merging.
+
+          If the link still works in a browser, close this pull request without merging and add the URL or its domain to \`.linkcheck-ignore\`.
+          MSG
+          )"
+            gh pr create \
+              --base "$BASE_BRANCH" \
+              --head "$branch" \
+              --title "Remove dead link: $url" \
+              --body "$body" \
+              --label "dead-link" || \
+            gh pr create \
+              --base "$BASE_BRANCH" \
+              --head "$branch" \
+              --title "Remove dead link: $url" \
+              --body "$body"
+
+            git checkout -q "$base_sha"
+          done < dead-urls.txt
