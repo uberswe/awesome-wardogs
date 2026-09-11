@@ -106,7 +106,6 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [thewardogs.wiki](https://thewardogs.wiki/community) - Links hub for Discord, Reddit, X, and Steam Charts.
 - [wardogswiki.org](https://wardogswiki.org/) - Fan wiki focused on fact checking Discord and Reddit claims.
 - [war-dogs-wiki.wiki](https://war-dogs-wiki.wiki/) - FAQ-style fan wiki.
-- [wardogsgame.wiki](https://wardogsgame.wiki/en) - Fan wiki.
 - [WARDOGS Field Guide](https://www.wardogsfieldguide.com/community) - Reference table of official links.
 - [Wardogs.GamesRef.com](https://wardogs.gamesref.com/bulkhead) - Pages on BULKHEAD studio history and ownership.
 
