@@ -119,6 +119,7 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [Skycoach beginner's guide](https://skycoach.gg/blog/wardogs/articles/wardogs-beginners-guide) - Cash, equipment, progression, and a weapon tier list.
 - [G2A overview](https://www.g2a.com/news/upcoming-game-releases/everything-you-should-know-about-wardogs/) - General overview for new players.
 - [Life is a Game explainer](https://lifeisagamemagazine.substack.com/p/wardogs-explained-release-date-platforms) - Release date and platform explainer.
+- [WARDOGS Field Guide: supply unloading](https://wardogs.site/gameplay/#fob-unloading) - Forward Operating Base (FOB) pallet and item-crate unloading reference with linked sources and beta limitations.
 
 ## News coverage
 
