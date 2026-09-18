@@ -32,7 +32,6 @@ WARDOGS is a 100-player, three-faction tactical shooter built on Unreal Engine 5
 - [BULKHEAD game page](https://bulkhead.com/games/wardogs/) - Developer's game page with a concept gallery and description.
 - [Team17 game page](https://www.team17.com/games/wardogs) - Publisher's game page with media and a wishlist link.
 - [Team17 reveal announcement](https://www.team17.com/news/wardogs-reveal-trailer) - The original announcement post.
-- [Games Press announcement](https://www.gamespress.com/WARDOGS-ANNOUNCED-BY-BULKHEAD-TEAM17-EARLY-ACCESS-LAUNCH-PLANNED-FOR-2) - Full text of the announcement press release.
 
 ### Social and community channels
 
