@@ -148,6 +148,7 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [GamingOnLinux: Proton support](https://www.gamingonlinux.com/2026/08/grand-scale-fps-wardogs-should-work-on-linux-steamos-devs-confirm-working-on-proton-support/) - Developers confirmed they are working on Proton support.
 - [Steam Deck HQ: Proton support](https://steamdeckhq.com/news/wardogs-devs-are-working-on-proton-support/) - Steam Deck coverage.
 - [Shacknews: Season 1 changelog](https://www.shacknews.com/article/150678/wardogs-season-1-changelog-patch-notes-2026-09-09) - Breakdown of the 9 September 2026 patch notes, covering the progression curve, vendor prices, voice chat, and the server browser.
+- [Streams Charts: Early Access viewership](https://streamscharts.com/news/wardogs-viewership-statistics) - Twitch figures for the Early Access launch, when the game peaked at 452,000 concurrent viewers and became the most watched category.
 
 ## Videos and creators
 
@@ -158,16 +159,35 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 
 ### Community videos
 
-- [WARDOGS War College, Episode 2: Infantry](https://www.youtube.com/watch?v=8rGrO8i2TFE) - Tutorial series.
-- [WARDOGS War College, Episode 4: Artillery Tanks (SPH-2)](https://www.youtube.com/watch?v=oP9RelmWk6A) - Tutorial series.
+- [WARDOGS War College, Episode 2: Infantry](https://www.youtube.com/watch?v=8rGrO8i2TFE) - Tutorial series by StratzFPS.
+- [WARDOGS War College, Episode 4: Artillery Tanks (SPH-2)](https://www.youtube.com/watch?v=oP9RelmWk6A) - Tutorial series by StratzFPS.
 - [WARDOGS First Impressions From a Battlefield Player](https://www.youtube.com/watch?v=3C0eZpjP-sk) - By Eau de Enders.
 - [WARDOGS is an Olive Branch to a New Generation of Gamers](https://www.youtube.com/watch?v=wqCdNf0FWMA) - Review.
 - [Is WARDOGS Worth $40? My Brutally Honest Review](https://www.youtube.com/watch?v=zI_N-gJbXOU) - Closed beta review.
 
 ### Creators
 
-- [Eau de Enders on YouTube](https://www.youtube.com/@EaudeEnders) - Also streams on [Twitch](https://www.twitch.tv/enders2nd).
-- [TwitchMetrics WARDOGS ranking](https://www.twitchmetrics.net/channels/popularity?game=WARDOGS) - Twitch channels ranked by average concurrent viewers over the past 30 days.
+Channels are listed here when most of their recent output is WARDOGS. Plenty of larger variety streamers play the game between other titles; the directories at the end of this section are a better way to find them.
+
+#### YouTube
+
+- [Wardogs Pilot](https://www.youtube.com/@thewardogspilot) - Helicopter gameplay and piloting guides, including a TrackIR head tracking setup. Every recent upload is WARDOGS.
+- [Sadelity](https://www.youtube.com/@Sadelity) - Piloting, tech, and settings videos, with pieces on the CIWS and artillery tank balance.
+- [StratzFPS](https://www.youtube.com/@StratzFPS) - Makes the WARDOGS War College tutorial series covering infantry, base building, artillery tanks, helicopters, and the support class.
+- [TacticalNed](https://www.youtube.com/@TacticalNed) - Long form gameplay and stream recordings, plus early game cash guides.
+- [DemoMan0351](https://www.youtube.com/@Devildog0491) - Economy and progression guides covering money-making methods, the XP meta, and anti-vehicle tactics.
+- [Eau de Enders](https://www.youtube.com/@EaudeEnders) - Posts on WARDOGS alongside Battlefield 6, which is the channel's main subject now. Also streams on [Twitch](https://www.twitch.tv/enders2nd).
+
+#### Twitch
+
+- [TheBurntPeanut](https://www.twitch.tv/theburntpeanut) - The most watched WARDOGS channel on Twitch, streaming it six days a week alongside Escape from Tarkov.
+- [Sequisha](https://www.twitch.tv/sequisha) - Streams WARDOGS most days and ranks among the top channels for the game.
+- [Sacriel](https://www.twitch.tv/sacriel) - Tactical shooter veteran streaming WARDOGS as their main game.
+
+#### Directories
+
+- [WARDOGS on Twitch](https://www.twitch.tv/directory/category/wardogs) - Everyone live in the category right now.
+- [TwitchMetrics WARDOGS ranking](https://www.twitchmetrics.net/channels/popularity?game=WARDOGS) - Twitch channels ranked by average concurrent viewers over the past 30 days, with the language of each channel.
 
 ## Servers and hosting
 
