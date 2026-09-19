@@ -137,6 +137,7 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [WARDOGS Hub towers and Hot Zone guide](https://wardogshub.gg/towers/) - How towers and the Hot Zone work.
 - [Wardogs HQ guides](https://wardogshq.gg/guides/) - Money-making methods ranked by reliability, Gold Bar reset, tank and helicopter economics, and XP tracks.
 - [Life is a Game explainer](https://lifeisagamemagazine.substack.com/p/wardogs-explained-release-date-platforms) - Release date and platform explainer.
+- [WARDOGS Field Guide: supply unloading](https://wardogs.site/gameplay/#fob-unloading) - Forward Operating Base (FOB) pallet and item-crate unloading reference with linked sources and beta limitations.
 
 ## News coverage
 
