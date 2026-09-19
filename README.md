@@ -13,11 +13,12 @@ WARDOGS is a 100-player, three-faction tactical shooter built on Unreal Engine 5
 - [News coverage](#news-coverage)
 - [Videos and creators](#videos-and-creators)
 - [Servers and hosting](#servers-and-hosting)
-- [Community Discords](#community-discords)
+- [Communities](#communities)
+- [Looking for group](#looking-for-group)
+- [Competitive](#competitive)
 - [Related projects](#related-projects)
 - [Technical reference](#technical-reference)
 - [System requirements](#system-requirements)
-- [Help wanted](#help-wanted)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -72,12 +73,23 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [Wardogs HQ](https://wardogshq.gg/guides/) - Economy, vehicle, weapon, and progression guides.
 - [WARDOGS Database](https://wardogs.tools/) - Item, vehicle, and map database, progression tracker, ballistics calculator, loadout builder, and live leaderboards.
 - [WARDOGS Companion](https://wardogs-game.com/) - Server browser information and server status and error diagnostics.
+- [Wardogs.tech](https://wardogs.tech/) - Discord bot that opens a shared tactical map for everyone in a voice channel, with drawing tools, markers, and supply requests. A [demo map](https://wardogs.tech/demo) is open without signing in.
+
+### Maps
+
+- [WARDOGS Maps](https://wardogstools.org/) - Bakurani, Ozeti, and Zestafona with about 60 searchable points per map, a one kilometre coordinate grid, and private markers kept in the browser. Free, no account.
+- [MetaForge maps](https://metaforge.app/wardogs/map) - 2D and 3D maps with terrain elevation, buildings, towers, spawns, and control zones.
+- [Clutchbase 3D maps](https://clutchbase.app/wardogs/maps/) - 3D terrain views of each zone with loot, vehicle, and spawn markers.
+- [WARDOGS Hub maps](https://wardogshub.gg/map/) - Interactive versions of all three maps.
+- [GameMaps Bakurani](https://www.gamemaps.net/game/wardogs/maps/wardogs_kavkazi) - Marker based map with points of interest and loot spots.
 
 ### Artillery and mortar calculators
 
 - [Wardogs Zone artillery calculator](https://wardogs.zone/calculators/artillery) - Artillery and mortar solutions.
 - [Clutchbase artillery calculator](https://clutchbase.app/wardogs/artillery-calculator) - Covers the L81 mortar and SPH-2 on Bakurani and Ozeti.
 - [wardogs-calculator](https://github.com/apollyon-sys/wardogs-calculator) - Open source artillery calculator and tactical map tools. Hosted at [apollyon-sys.github.io](https://apollyon-sys.github.io/wardogs-calculator/) and [wardogs-artillery.com](https://wardogs-artillery.com/) with desktop and mobile layouts in 12 languages.
+- [wardogs-calc](https://github.com/djzet/wardogs-calc) - Open source calculator on an interactive 16 by 16 km map, giving azimuth, elevation in mils, and flight time. MIT licensed, with a [live demo](https://djzet.github.io/wardogs-calc/) and documentation in nine languages.
+- [MortarHUD](https://github.com/Cec1c/MortarHUD) - Windows overlay that reads the map coordinates already on screen using OCR and shows bearing and range to a target. Apache 2.0. It does not read or write game memory and sends no input to the game.
 
 ### Loadout planners
 
@@ -97,6 +109,15 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [Wardog Servers](https://wardogservers.com/) - Independent server list by region with a hosting explainer.
 - [Wardogs HQ server browser](https://wardogshq.co/servers) - Fan platform with Discord and Steam login, a server browser, and an armory. This is a different site from wardogshq.gg.
 
+### Server administration
+
+- [Warcon](https://warcon.app/) - Self hosted RCON panel for dedicated servers. Each admin signs in with their own account and role, the RCON password stays encrypted on the server, and every command is written to an audit trail. MIT licensed, [source on GitHub](https://github.com/warcon-app/warcon).
+- [wardogs-community-server-tool-list](https://github.com/tw0f1sh/wardogs-community-server-tool-list) - Index of five open source server tools: an RCON gateway that issues per admin API keys, a Python admin client, a Discord status bot, a welcome and announcement bot, and a player name moderation service.
+
+### Match trackers
+
+- [wardogs-profit-tracker](https://github.com/Adazan21/wardogs-profit-tracker) - Windows tool that plots cash and earnings per minute during a match. It reads the profit and loss value the game publishes through Steam Rich Presence rather than reading the screen or game memory.
+
 ## Wikis and databases
 
 - [WARDOGS Wiki on Fandom](https://wardogs.fandom.com/wiki/WARDOGS_Wiki) - Community encyclopedia covering mechanics, factions, and Control Zone and Hot Zone rules. Small, around a dozen pages.
@@ -115,9 +136,6 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [Clutchbase beginner's guide](https://clutchbase.app/wardogs/guides/wardogs-beginners-guide) - Starting out.
 - [WARDOGS Hub towers and Hot Zone guide](https://wardogshub.gg/towers/) - How towers and the Hot Zone work.
 - [Wardogs HQ guides](https://wardogshq.gg/guides/) - Money-making methods ranked by reliability, Gold Bar reset, tank and helicopter economics, and XP tracks.
-- [Overgear starter guide](https://overgear.com/guides/wardogs/starter-guide/) - Beginner tips and an overview of the six XP tracks: Assault, Medic, Recon, Support, Driver, and Pilot.
-- [Skycoach beginner's guide](https://skycoach.gg/blog/wardogs/articles/wardogs-beginners-guide) - Cash, equipment, progression, and a weapon tier list.
-- [G2A overview](https://www.g2a.com/news/upcoming-game-releases/everything-you-should-know-about-wardogs/) - General overview for new players.
 - [Life is a Game explainer](https://lifeisagamemagazine.substack.com/p/wardogs-explained-release-date-platforms) - Release date and platform explainer.
 
 ## News coverage
@@ -128,6 +146,7 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [Massively Overpowered: player-hosted servers](https://massivelyop.com/2026/09/07/large-scale-multiplayer-fps-wardogs-will-let-players-host-100-person-servers-at-early-access-launch/) - Coverage of 100-player community servers at launch.
 - [GamingOnLinux: Proton support](https://www.gamingonlinux.com/2026/08/grand-scale-fps-wardogs-should-work-on-linux-steamos-devs-confirm-working-on-proton-support/) - Developers confirmed they are working on Proton support.
 - [Steam Deck HQ: Proton support](https://steamdeckhq.com/news/wardogs-devs-are-working-on-proton-support/) - Steam Deck coverage.
+- [Shacknews: Season 1 changelog](https://www.shacknews.com/article/150678/wardogs-season-1-changelog-patch-notes-2026-09-09) - Breakdown of the 9 September 2026 patch notes, covering the progression curve, vendor prices, voice chat, and the server browser.
 
 ## Videos and creators
 
@@ -147,6 +166,7 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 ### Creators
 
 - [Eau de Enders on YouTube](https://www.youtube.com/@EaudeEnders) - Also streams on [Twitch](https://www.twitch.tv/enders2nd).
+- [TwitchMetrics WARDOGS ranking](https://www.twitchmetrics.net/channels/popularity?game=WARDOGS) - Twitch channels ranked by average concurrent viewers over the past 30 days.
 
 ## Servers and hosting
 
@@ -168,11 +188,36 @@ Community server hosting is whitelist only. BULKHEAD announced on 7 September 20
 - [WARDOGS Hub servers](https://wardogshub.gg/servers/) - Community servers by region, including German, French, Czech and Slovak, Ukrainian, Estonian, and English communities.
 - [Wardog Servers](https://wardogservers.com/) - Independent server list by region.
 
-## Community Discords
+## Communities
 
+Most community servers are run by a group that also has a Discord, and some have a site of their own. The regional server list under [Servers and hosting](#servers-and-hosting) is the broadest index. The entries below are groups that publish their own rules, schedules, and membership terms.
+
+### Community organizations
+
+- [WARDOGS Nordic](https://www.wardogsnordic.com/) - Nordic community covering Norway, Sweden, Denmark, Finland, Iceland, the Faroe Islands, Greenland, and Aland. Runs two Nordic hosted servers plus weekly operations and squad nights. English is used in game.
+- [SPH](https://sph-clan.com/) - Spanish language milsim community founded in 2001, with a 100 player WARDOGS server alongside its Squad, Arma 3, and Arma Reforger servers. Membership and its training academy are free.
+- [WARDOGS Ukraine](https://wardogs-ua.com/) - Ukrainian community with a Ukrainian language wiki, server monitoring, player profiles, and leaderboards.
+- [Command Squad](https://commandsquad.net/wardogs) - North American community running two servers since the Early Access launch, with published rules and admin coverage. Also runs Squad servers.
+- [Strix](https://strix.gg/) - Tactical shooter community with servers in North America and Europe.
+- [3rd Gaming](https://3rd.gg/) - Adults only PC clan and Discord that has WARDOGS as its current game.
 - [Ares Group PMC](https://discord.gg/Y38j3uGEHB) - Casual but organized PMC with a custom info-relay bot.
 - [WARDOGS RUSSIA (WDRU)](https://discordbotlist.com/servers/wardogsru) - Russian-language community.
+
+### Directories
+
+- [EU Headquarter WARDOGS hub](https://euheadquarter.com/games/wardogs) - Milsim unit directory. The WARDOGS page lists units, events, and a sample order of battle for the three factions.
 - [DISBOARD wardogs tag](https://disboard.org/servers/tag/wardogs) - Directory of Discord servers tagged with the game.
+
+## Looking for group
+
+- [MetaForge LFG](https://metaforge.app/wardogs/lfg) - Browse squads by region, role, playstyle, and schedule.
+- [LFG Hub](https://www.lfghub.gg/wardogs/lfg) - Pools posts from several Discord servers into one list, where each entry is a voice channel that already has people in it. No account.
+- [Teamplay.gg](https://teamplay.gg/wardogs) - Free team finder with filters for rank, role, language, and platform, plus voice chat and an Android app. Needs an account.
+- [WARDOGS LFG](https://wardogslfg.com/) - Discord bot and dashboard for posting searchable requests with role tags.
+
+## Competitive
+
+- [The Wardogs League](https://wardogsleague.net/) - Season of three way rounds between national community teams, with standings, a match calendar, and published rules. It lists 59 teams across 54 nations at the time of writing.
 
 ## Related projects
 
@@ -194,6 +239,8 @@ Community server hosting is whitelist only. BULKHEAD announced on 7 September 20
 - [Metacritic](https://www.metacritic.com/game/wardogs/) - Score page. No critic reviews at the time of writing. Not to be confused with "WarDogs: Red's Return".
 - [Tracker.gg population](https://tracker.gg/population/steam/1867240) - Live player counts.
 - [Raijin.gg](https://raijin.gg/app/1867240/WARDOGS) - Live player counts.
+- [Wardogs Dev Hub](https://wardogs.tech/dev) - Unofficial reference for people building tools, covering the game backend API, an interactive API console, an OpenAPI specification, and a commented config template. Each page records the game version it was last checked against.
+- [Wardogs server reference](https://wardogs.tech/rcon-reference) - Unofficial documentation of the RCON HTTP API and the ServerSettings.ini keys the dedicated server reads at startup. The RCON listener runs over HTTP on port 7776 by default.
 
 ## System requirements
 
