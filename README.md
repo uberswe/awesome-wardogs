@@ -136,9 +136,6 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [Clutchbase beginner's guide](https://clutchbase.app/wardogs/guides/wardogs-beginners-guide) - Starting out.
 - [WARDOGS Hub towers and Hot Zone guide](https://wardogshub.gg/towers/) - How towers and the Hot Zone work.
 - [Wardogs HQ guides](https://wardogshq.gg/guides/) - Money-making methods ranked by reliability, Gold Bar reset, tank and helicopter economics, and XP tracks.
-- [Overgear starter guide](https://overgear.com/guides/wardogs/starter-guide/) - Beginner tips and an overview of the six XP tracks: Assault, Medic, Recon, Support, Driver, and Pilot.
-- [Skycoach beginner's guide](https://skycoach.gg/blog/wardogs/articles/wardogs-beginners-guide) - Cash, equipment, progression, and a weapon tier list.
-- [G2A overview](https://www.g2a.com/news/upcoming-game-releases/everything-you-should-know-about-wardogs/) - General overview for new players.
 - [Life is a Game explainer](https://lifeisagamemagazine.substack.com/p/wardogs-explained-release-date-platforms) - Release date and platform explainer.
 
 ## News coverage
