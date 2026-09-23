@@ -206,7 +206,6 @@ Most community servers are run by a group that also has a Discord, and some have
 
 ### Directories
 
-- [EU Headquarter WARDOGS hub](https://euheadquarter.com/games/wardogs) - Milsim unit directory. The WARDOGS page lists units, events, and a sample order of battle for the three factions.
 - [DISBOARD wardogs tag](https://disboard.org/servers/tag/wardogs) - Directory of Discord servers tagged with the game.
 
 ## Looking for group
