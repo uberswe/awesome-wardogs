@@ -239,7 +239,6 @@ Most community servers are run by a group that also has a Discord, and some have
 - [ProtonDB](https://www.protondb.com/app/1867240) - Linux and Proton reports. There is no official Linux support at launch.
 - [Metacritic](https://www.metacritic.com/game/wardogs/) - Score page. No critic reviews at the time of writing. Not to be confused with "WarDogs: Red's Return".
 - [Tracker.gg population](https://tracker.gg/population/steam/1867240) - Live player counts.
-- [Raijin.gg](https://raijin.gg/app/1867240/WARDOGS) - Live player counts.
 - [Wardogs Dev Hub](https://wardogs.tech/dev) - Unofficial reference for people building tools, covering the game backend API, an interactive API console, an OpenAPI specification, and a commented config template. Each page records the game version it was last checked against.
 - [Wardogs server reference](https://wardogs.tech/rcon-reference) - Unofficial documentation of the RCON HTTP API and the ServerSettings.ini keys the dedicated server reads at startup. The RCON listener runs over HTTP on port 7776 by default.
 
