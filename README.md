@@ -195,7 +195,6 @@ Most community servers are run by a group that also has a Discord, and some have
 
 ### Community organizations
 
-- [WARDOGS Nordic](https://www.wardogsnordic.com/) - Nordic community covering Norway, Sweden, Denmark, Finland, Iceland, the Faroe Islands, Greenland, and Aland. Runs two Nordic hosted servers plus weekly operations and squad nights. English is used in game.
 - [SPH](https://sph-clan.com/) - Spanish language milsim community founded in 2001, with a 100 player WARDOGS server alongside its Squad, Arma 3, and Arma Reforger servers. Membership and its training academy are free.
 - [WARDOGS Ukraine](https://wardogs-ua.com/) - Ukrainian community with a Ukrainian language wiki, server monitoring, player profiles, and leaderboards.
 - [Command Squad](https://commandsquad.net/wardogs) - North American community running two servers since the Early Access launch, with published rules and admin coverage. Also runs Squad servers.
