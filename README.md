@@ -71,7 +71,6 @@ There is no dedicated WARDOGS YouTube channel. Trailers and developer videos are
 - [Clutchbase](https://clutchbase.app/wardogs) - Artillery calculator, beginner guide, and tools. Works well on mobile.
 - [WARDOGS Hub](https://wardogshub.gg/) - Guides, a loadout planner that models weight and movement penalties, and a community server list by region.
 - [Wardogs HQ](https://wardogshq.gg/guides/) - Economy, vehicle, weapon, and progression guides.
-- [WARDOGS Database](https://wardogs.tools/) - Item, vehicle, and map database, progression tracker, ballistics calculator, loadout builder, and live leaderboards.
 - [WARDOGS Companion](https://wardogs-game.com/) - Server browser information and server status and error diagnostics.
 - [Wardogs.tech](https://wardogs.tech/) - Discord bot that opens a shared tactical map for everyone in a voice channel, with drawing tools, markers, and supply requests. A [demo map](https://wardogs.tech/demo) is open without signing in.
 
