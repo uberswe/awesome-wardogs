@@ -214,7 +214,6 @@ Most community servers are run by a group that also has a Discord, and some have
 - [MetaForge LFG](https://metaforge.app/wardogs/lfg) - Browse squads by region, role, playstyle, and schedule.
 - [LFG Hub](https://www.lfghub.gg/wardogs/lfg) - Pools posts from several Discord servers into one list, where each entry is a voice channel that already has people in it. No account.
 - [Teamplay.gg](https://teamplay.gg/wardogs) - Free team finder with filters for rank, role, language, and platform, plus voice chat and an Android app. Needs an account.
-- [WARDOGS LFG](https://wardogslfg.com/) - Discord bot and dashboard for posting searchable requests with role tags.
 
 ## Competitive
 
