@@ -199,7 +199,6 @@ Most community servers are run by a group that also has a Discord, and some have
 - [SPH](https://sph-clan.com/) - Spanish language milsim community founded in 2001, with a 100 player WARDOGS server alongside its Squad, Arma 3, and Arma Reforger servers. Membership and its training academy are free.
 - [WARDOGS Ukraine](https://wardogs-ua.com/) - Ukrainian community with a Ukrainian language wiki, server monitoring, player profiles, and leaderboards.
 - [Command Squad](https://commandsquad.net/wardogs) - North American community running two servers since the Early Access launch, with published rules and admin coverage. Also runs Squad servers.
-- [Strix](https://strix.gg/) - Tactical shooter community with servers in North America and Europe.
 - [3rd Gaming](https://3rd.gg/) - Adults only PC clan and Discord that has WARDOGS as its current game.
 - [Ares Group PMC](https://discord.gg/Y38j3uGEHB) - Casual but organized PMC with a custom info-relay bot.
 - [WARDOGS RUSSIA (WDRU)](https://discordbotlist.com/servers/wardogsru) - Russian-language community.
